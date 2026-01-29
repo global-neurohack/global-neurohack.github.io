@@ -67,8 +67,9 @@ window.addEventListener('scroll', setActiveNavLink);
 // Countdown Timer
 // ===================================
 function updateCountdown() {
-    // Set the hackathon date (March 15, 2025)
-    const hackathonDate = new Date('March 15, 2025 09:00:00').getTime();
+    // Set the hackathon date (April 10, 2026 at 9:00 AM PST)
+    // PST is UTC-8, so we need to account for timezone
+    const hackathonDate = new Date('2026-04-10T09:00:00-08:00').getTime();
     const now = new Date().getTime();
     const distance = hackathonDate - now;
     
@@ -82,6 +83,12 @@ function updateCountdown() {
         document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
         document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
         document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+    } else {
+        // Event has started or passed
+        document.getElementById('days').textContent = '00';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
     }
 }
 
