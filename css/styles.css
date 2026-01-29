@@ -1302,6 +1302,7 @@ section {
     padding: 50px;
     border-radius: 24px;
     box-shadow: var(--shadow-sm);
+    margin-top: 60px;
 }
 
 .sponsor-cta h3 {
@@ -1314,6 +1315,145 @@ section {
 .sponsor-cta p {
     color: var(--slate-blue);
     margin-bottom: 24px;
+}
+
+/* Sponsorship Table Styles */
+.sponsorship-table-wrapper {
+    overflow-x: auto;
+    margin-bottom: 40px;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+}
+
+.sponsorship-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.sponsorship-table thead {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.sponsorship-table th {
+    padding: 24px 20px;
+    text-align: center;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    border-bottom: 3px solid #e9ecef;
+}
+
+.sponsorship-table th:first-child {
+    text-align: left;
+    width: 45%;
+    background: transparent;
+}
+
+.sponsorship-table .tier-name {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.sponsorship-table .tier-price {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.sponsorship-table .tier-silver {
+    color: #6c757d;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.sponsorship-table .tier-gold {
+    color: #c9a227;
+    background: linear-gradient(135deg, #fff9e6 0%, #fff3cc 100%);
+}
+
+.sponsorship-table .tier-title {
+    color: var(--cyan);
+    background: linear-gradient(135deg, #e6f7ff 0%, #cceeff 100%);
+}
+
+.sponsorship-table tbody tr {
+    transition: var(--transition-fast);
+}
+
+.sponsorship-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.sponsorship-table td {
+    padding: 20px;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.sponsorship-table td:first-child {
+    text-align: left;
+    color: var(--slate-blue);
+}
+
+.sponsorship-table td strong {
+    color: var(--deep-blue);
+    font-weight: 600;
+}
+
+.sponsorship-table .check-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sponsorship-table .check {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sponsorship-table .check-silver {
+    color: #6c757d;
+}
+
+.sponsorship-table .check-gold {
+    color: #c9a227;
+}
+
+.sponsorship-table .check-title {
+    color: var(--cyan);
+}
+
+.sponsorship-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .sponsorship-table-wrapper {
+        border-radius: 12px;
+    }
+    
+    .sponsorship-table th,
+    .sponsorship-table td {
+        padding: 16px 12px;
+        font-size: 14px;
+    }
+    
+    .sponsorship-table .tier-name {
+        font-size: 18px;
+    }
+    
+    .sponsorship-table .tier-price {
+        font-size: 14px;
+    }
+    
+    .sponsorship-table .check {
+        font-size: 24px;
+    }
 }
 
 /* ===================================
