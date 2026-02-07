@@ -1231,14 +1231,8 @@ section {
 }
 
 .tier-title {
-    text-align: center;
-    font-family: var(--font-display);
-    font-size: 20px;
-    padding: 10px 30px;
-    border-radius: 50px;
-    display: inline-block;
-    margin: 0 auto 30px;
-    width: 100%;
+    background: linear-gradient(135deg, #E5E4E2, #A8A9AD);
+    color: #4A4A4A;
 }
 
 .tier-title.platinum {
