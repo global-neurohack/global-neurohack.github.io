@@ -342,7 +342,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ===================================
 // Scroll Reveal Animation
 // ===================================
-const revealElements = document.querySelectorAll('.about-card, .track-card, .prize-card, .mentor-card, .faq-item');
+const revealElements = document.querySelectorAll('.about-card, .track-card, .prize-card, .person-card, .faq-item');
 
 const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry, index) => {
