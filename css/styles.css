@@ -1554,6 +1554,24 @@ section {
     background: var(--white);
 }
 
+.judges-track {
+    margin-bottom: 80px;
+}
+
+.judges-track:last-child {
+    margin-bottom: 0;
+}
+
+.track-title {
+    font-family: var(--font-display);
+    font-size: 28px;
+    color: var(--deep-blue);
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid var(--royal-blue);
+    display: inline-block;
+}
+
 .mentors {
     background: var(--ice-blue);
 }
@@ -1580,6 +1598,18 @@ section {
 .person-image {
     height: 200px;
     overflow: hidden;
+    background: var(--ice-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-image:empty::before {
+    content: "Photo Coming Soon";
+    color: var(--slate-blue);
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
 }
 
 .person-image img {
@@ -1594,7 +1624,31 @@ section {
 }
 
 .person-image img.headshot-phil {
-    object-position: center 28%;
+    object-position: center 24%;
+}
+
+.person-image img.headshot-lindsey {
+    object-position: center 24%;
+}
+
+.person-image img.headshot-iakov {
+    object-position: center 24%;
+}
+
+.person-image img.headshot-christian {
+    object-position: center 24%;
+}
+
+.person-image img.headshot-ankita {
+    object-position: center 24%;
+}
+
+.person-image img.headshot-gail {
+    object-position: center 24%;
+}
+
+.person-image img.headshot-matthew {
+    object-position: center 24%;
 }
 
 .person-image-placeholder {

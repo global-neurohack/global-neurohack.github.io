@@ -154,7 +154,7 @@
             <div class="section-header">
                 <span class="section-tag">Hackathon Tracks</span>
                 <h2 class="section-title">Choose Your Path</h2>
-                <p class="section-subtitle">Select from two exciting tracks designed to foster innovation and collaboration in neurotechnology.</p>
+                <p class="section-subtitle">Select from three tracks designed to foster innovation and collaboration in neurotechnology.</p>
             </div>
             <div class="tracks-grid">
                 <div class="track-card" data-track="bluesky">
@@ -177,28 +177,30 @@
                         <small>Innovation Track</small>
                     </div>
                 </div>
-                <div class="track-card" data-track="industry">
+                <div class="track-card" data-track="e184">
                     <div class="track-icon">
-                        <i class="fas fa-handshake"></i>
+                        <i class="fas fa-comments"></i>
                     </div>
                     <div class="track-content">
-                        <h3>Industry Solutions</h3>
-                        <p>An opportunity for participants to collaborate with our Title Sponsors to tackle real-world problems.</p>
-                        <h4 style="font-size: 0.95rem; margin-top: 1rem; margin-bottom: 0.5rem; color: #00A3FF;">Our Title Sponsors can:</h4>
-                        <ul class="track-list">
-                            <li>Set out scoped problem-statements</li>
-                            <li>Share expertise, equipment, data</li>
-                            <li>Partake in final judging</li>
-                        </ul>
-                        <h4 style="font-size: 0.95rem; margin-top: 1rem; margin-bottom: 0.5rem; color: #00A3FF;">Participants will:</h4>
-                        <ul class="track-list">
-                            <li>Develop solutions to defined problems</li>
-                            <li>Engage with partners through design checkpoints for feedback and iteration</li>
-                        </ul>
+                        <h3>Non-Implantable Speech Decoding</h3>
+                        <p>Decode thoughts into words by building a brain-computer interface that translates EEG or fNIRS signals into speech. Handle real-world constraints: noise, calibration, and generalization. A narrow, solid demo beats an ambitious claim - be honest about what your system does.</p>
                     </div>
                     <div class="track-prize">
-                        <span>Partner</span>
-                        <small>Collaboration Track</small>
+                        <span>e184</span>
+                        <small>Sponsored Track</small>
+                    </div>
+                </div>
+                <div class="track-card" data-track="science">
+                    <div class="track-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="track-content">
+                        <h3>Maximizing Bit Rate</h3>
+                        <p>Design the fastest BCI game by building a decoder from mock neural data and creating a game judges can master in seconds. Maximize both speed and accuracy. State-of-the-art implanted BCIs reach 8.6 bps; your challenge is to beat the EEG benchmark of 0.1-0.4 bps.</p>
+                    </div>
+                    <div class="track-prize">
+                        <span>Science Corp</span>
+                        <small>Sponsored Track</small>
                     </div>
                 </div>
             </div>
@@ -335,7 +337,7 @@
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-time">12:30 PM</div>
+                            <div class="timeline-time">1:00 PM</div>
                             <div class="timeline-content">
                                 <span class="event-type networking">Judging</span>
                                 <h4>Judging Begins</h4>
@@ -447,108 +449,216 @@
                 <h2 class="section-title">Meet the Judges</h2>
                 <p class="section-subtitle">Industry leaders and researchers evaluating projects for innovation, technical depth, and real-world impact.</p>
             </div>
-            <div class="people-grid">
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/abigail_holland.jpeg" alt="Headshot of Abigail Holland" loading="lazy">
+
+            <!-- e184 Track Judges -->
+            <div class="judges-track">
+                <h3 class="track-title">e184 Track</h3>
+                <div class="people-grid">
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/sofia_kozlova.jpeg" alt="Headshot of Sofia Kozlova" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Sofia Kozlova</h4>
+                            <p class="person-role">Analyst at e184</p>
+                            <p class="person-description">Researcher and entrepreneur with expertise in neural interfaces and BCI signal processing. Sofia brings deep technical knowledge of neural encoding/decoding algorithms and experience translating academic research into commercial applications. Passionate about making neurotechnology accessible to diverse users.</p>
+                        </div>
                     </div>
-                    <div class="person-info">
-                        <h4>Abigail Holland</h4>
-                        <p class="person-role">Judge | Founder, Go Go Gaia</p>
-                        <p class="person-description">Founder of Go Go Gaia, building AI-powered insights that connect wearables, cycle tracking, and lifestyle data to make women's health understandable and actionable in a vastly underfunded but enormous market. Previously led neurotech product and research: developed deep learning for dementia diagnosis, served as Head of Product at IDUN Technologies (EEG wearables), President of Merlin Neurotech (open-source BCI), early product at Muse (consumer EEG); trained in Biomechanical Engineering (Queen's) and Clinical Neuroscience (UCL).</p>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/Dan Blizinski Head Shot.png" alt="Headshot of Dan Blizinski" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Dan Blizinski</h4>
+                            <p class="person-role">Director of Open-Source Business Strategy, Openwater</p>
+                            <p class="person-description">Director of Open-Source Business Strategy at Openwater. Brings open-source platform expertise and medical device innovation experience. Previously at Canon Medical, he built cloud-native AI analytics platforms processing data from over 2 million patients across AWS and Azure. Leadership background in enterprise Linux strategy and platform engineering.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/DParibello.jpeg" alt="Headshot of David Paribello" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>David Paribello</h4>
+                            <p class="person-role">Director of Product Management, Openwater</p>
+                            <p class="person-description">Director of Product Management at Openwater. Entrepreneurial leader commercializing innovative technologies since 2008, with focus on imaging and medical device platforms. Previously launched the world's first single-sided MRI for office-based targeted interventions and grew sales to over $115M in three years. B.S. in Engineering Physics from McMaster University, M.S. in Electrical and Computer Engineering from University of Western Ontario.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/david_moses.jpeg" alt="Headshot of David Moses" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>David Moses</h4>
+                            <p class="person-role">Adjunct Professor, UCSF</p>
+                            <p class="person-description">Neurotechnology expert and innovator with deep expertise in neural signal processing and brain-computer interface design. Focused on bridging the gap between research and real-world applications in neurotechnology. Experienced in evaluating technical solutions and commercial potential of neurotech projects.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/CEEE2173-3F80-4C8C-89D9-B6B26A6FDAE3 - Reuben Thomas.jpeg" alt="Headshot of Reuben Thomas" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Reuben Thomas</h4>
+                            <p class="person-role">Electrical engineer at Tacit</p>
+                            <p class="person-description">Technical expert in neurotechnology and neural engineering with experience across hardware, firmware, and signal processing. Known for evaluating technical feasibility, code quality, and scalability of neurotech solutions. Passionate about fostering innovation in the neurotech startup ecosystem.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/CEEE2173-3F80-4C8C-89D9-B6B26A6FDAE3 - Reuben Thomas.jpeg" alt="Headshot of Reuben Koshy Thomas" loading="lazy">
+            </div>
+
+            <!-- Science Track Judges -->
+            <div class="judges-track">
+                <h3 class="track-title">Science Track</h3>
+                <div class="people-grid">
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/IMG_4857~2 - Terence Rabuzzi.JPG" alt="Headshot of Terence Rabuzzi" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Terence Rabuzzi</h4>
+                            <p class="person-role">Senior Technical Writer, Science</p>
+                            <p class="person-description">Senior Technical Writer at Science Corporation. Former engineer with deep technical expertise in neural interfaces and BCI systems. Specializes in making complex neural engineering concepts legible and evaluating the clarity and quality of technical presentations. Expertise in regulatory and technical documentation for implantable devices.</p>
+                        </div>
                     </div>
-                    <div class="person-info">
-                        <h4>Reuben Koshy Thomas</h4>
-                        <p class="person-role">Electrical Engineer, Tacit</p>
-                        <p class="person-description">Electrical engineer at Tacit building wearable devices for silent speech technology. Former VP Engineering at UC Berkeley, developed hardware for EMG and tFUS, organoid research, and lab automation.</p>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/Image from iOS - Vishnu T S.jpg" alt="Headshot of Vishnu Therayil Sasikumar" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Vishnu Therayil Sasikumar</h4>
+                            <p class="person-role">Firmware Engineer, Science</p>
+                            <p class="person-description">Firmware Engineer at Science Corporation. Leads FPGA and firmware development for next-generation neural devices. Deep expertise in computer architecture, high-reliability embedded systems, and high-speed protocols (AXI, SPI, I²C, PCIe). Evaluates firmware quality, embedded systems design, and reliability of BCI solutions.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/emma_zhou.jpeg" alt="Headshot of Emma Zhou" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Emma Zhou</h4>
+                            <p class="person-role">Director of BCI Research, Science</p>
+                            <p class="person-description">Neuroscientist and BCI researcher with expertise in neural decoding and game-based brain-computer interfaces. Strong background in evaluating scientific rigor, methodology, and the quality of neural signal processing implementations. Focused on assessing both the technical performance and user experience of interactive BCI systems.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/mo_eltaeb.jpeg" alt="Headshot of Mo Eltaeb" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Mo Eltaeb</h4>
+                            <p class="person-role">Neuroengineer, Science</p>
+                            <p class="person-description">Neural engineering specialist with experience in practical BCI implementation and real-world testing. Expertise in evaluating the technical feasibility of neural interfaces, code quality, and the engineering challenges of building reliable brain-computer interfaces. Known for assessing project scope and execution quality.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/IMG_9976 - Yahia Ali.jpeg" alt="Headshot of Yahia Ali" loading="lazy">
+            </div>
+
+            <!-- BlueSky Track Judges -->
+            <div class="judges-track">
+                <h3 class="track-title">BlueSky Track</h3>
+                <div class="people-grid">
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/gail_gannon.jpeg" alt="Headshot of Gail Gannon" class="headshot-gail" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Gail Gannon</h4>
+                            <p class="person-role">Director, Neurotech Collider Lab</p>
+                            <p class="person-description">Neurotech industry veteran with extensive experience in neurotechnology commercialization and product development. Deep understanding of market dynamics, regulatory pathways, and the journey from prototype to clinical product. Evaluates scalability, market viability, and realistic commercialization potential of neurotechnology solutions.</p>
+                        </div>
                     </div>
-                    <div class="person-info">
-                        <h4>Yahia Ali</h4>
-                        <p class="person-role">Software Engineer at Tacit</p>
-                        <p class="person-description">Yahia Ali is a software engineer at Tacit in San Francisco, CA. Previously, he worked on the BrainGate2 clinical trial, where he developed BRAND, an open-source software package for low-latency machine learning inference in intracortical brain-computer interfaces.</p>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/Julia-Scott.png" alt="Headshot of Julia Scott" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Julia Scott</h4>
+                            <p class="person-role">Professor, Santa Clara University</p>
+                            <p class="person-description">Julia Scott is a professor at Santa Clara University specializing in neuroengineering and human-centered biomedical systems, where she mentors students in building brain-computer interfaces and wearable neural sensing technologies. Her research and teaching bridge signal processing, embedded systems, and ethical design to translate neuroscience into practical tools for health, accessibility, and next-gen human-machine interaction.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/Julia-Scott.png" alt="Headshot of Julia Scott" loading="lazy">
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/dan_adams.jpeg" alt="Headshot of Dan Adams" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Dan Adams</h4>
+                            <p class="person-role">Neuroscientist, Neuralink</p>
+                            <p class="person-description">Neuroscientist at Neuralink working on research and scientific foundations for human BCI programs. PhD-level expertise in neuroscience with deep knowledge of neural recording, signal analysis, and brain physiology. Evaluates scientific rigor, methodology, and appropriateness of validation approaches in BCI research.</p>
+                        </div>
                     </div>
-                    <div class="person-info">
-                        <h4>Julia Scott</h4>
-                        <p class="person-role">Professor, Santa Clara University</p>
-                        <p class="person-description">Julia Scott is a professor at Santa Clara University specializing in neuroengineering and human-centered biomedical systems, where she mentors students in building brain-computer interfaces and wearable neural sensing technologies. Her research and teaching bridge signal processing, embedded systems, and ethical design to translate neuroscience into practical tools for health, accessibility, and next-gen human-machine interaction.</p>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/matthew_macdougall.jpg" alt="Headshot of Matthew MacDougall" class="headshot-matthew" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Matthew MacDougall</h4>
+                            <p class="person-role">Neurosurgeon, Neuralink</p>
+                            <p class="person-description">Neurotech entrepreneur and researcher with expertise in neural systems and BCI architecture. Known for evaluating the scientific soundness and technical innovation of neurotechnology projects. Brings perspective from both academic research and industry application of neural interfaces.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/abigail_holland.jpeg" alt="Headshot of Abigail Holland" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Abigail Holland</h4>
+                            <p class="person-role">CEO of Go Go Gaia</p>
+                            <p class="person-description">Neurotechnology strategist with experience in evaluating commercial viability and market positioning of neurotech solutions. Expertise in identifying customer needs, market opportunities, and realistic paths to commercialization. Focused on assessing the business potential and scalability of neurotechnology innovations.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/jake_wilkins.jpeg" alt="Headshot of Jake Wilkins" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Jake Wilkins</h4>
+                            <p class="person-role">Founding Designer, Orbit</p>
+                            <p class="person-description">Founding Designer at Orbit. Brings several years of experience at LivaNova leading design for software and hardware in neuromodulation. Deep expertise in UX/UI, product design, and the full spectrum of software and hardware design for medical and consumer neurotechnology. Evaluates presentation quality, user experience, and design excellence.</p>
+                        </div>
+                    </div>
+                    <div class="person-card">
+                        <div class="person-image">
+                            <img src="headshots/dipanshu_gandhi.jpeg" alt="Headshot of Dipanshu Gandhi" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h4>Dipanshu Gandhi</h4>
+                            <p class="person-role">CTO @ Orbit Neuro</p>
+                            <p class="person-description">CTO at Orbit Neuro. Specializes in electronics for sensing, embedded systems, rapid prototyping, and non-invasive brain imaging systems. Brings end-to-end hardware expertise from schematic design through firmware to system integration. Focused on evaluating technical feasibility, execution quality, and manufacturability of neurotech hardware solutions.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Mentors Section -->
     <section id="mentors" class="mentors people-section">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Build Support</span>
                 <h2 class="section-title">Meet the Mentors</h2>
-                <p class="section-subtitle">Hands-on mentors supporting teams with technical direction, design feedback, and go-to-market guidance throughout the weekend.</p>
+                <p class="section-subtitle">Access expert mentorship from 24 industry leaders in neural engineering, BCIs, and neurotechnology. Hands-on guidance throughout the weekend.</p>
             </div>
             <div class="people-grid">
+                <!-- Science Corporation Mentors -->
                 <div class="person-card">
                     <div class="person-image">
                         <img src="headshots/IMG_9970 - Max Rothman.jpeg" alt="Headshot of Max Rothman" loading="lazy">
                     </div>
                     <div class="person-info">
                         <h4>Max Rothman</h4>
-                        <p class="person-role">Lead EE, Science Corporation</p>
-                        <p class="person-description">Lead Electrical Engineer at Science, working on BCI and biohybrid devices. Designs low-power, high-bandwidth implantable electronics for next-generation neural interfaces. Studied BME and ECE at Duke University with a focus on medical devices and electrophysiology.</p>
+                        <p class="person-role">Electrical Engineer, Science</p>
+                        <p class="person-description">Designs low-power, high-bandwidth implantable electronics for neural interfaces. Published in New England Journal of Medicine.</p>
                     </div>
                 </div>
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="headshots/headshot - Sacchit Mittal.jpeg" alt="Headshot of Sacchit Mittal" loading="lazy">
+                        <img src="headshots/Phil Xie - Phil Xie.jpg" alt="Headshot of Phil Xie" class="headshot-phil" loading="lazy">
                     </div>
                     <div class="person-info">
-                        <h4>Sacchit Mittal</h4>
-                        <p class="person-role">Founding Team, Soma Health</p>
-                        <p class="person-description">Founding team at Soma, building software BCI. Mentor at CREATE-X (Georgia Tech startup incubator). Previously judged 60+ hackathon projects and was on the founding team at Tool in health and wellness. Holds a BS and MS in CS from Georgia Tech.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img class="headshot-ewina" src="headshots/pro_pic - Tsam Kiu Pun.jpg" alt="Headshot of Ewina Pun" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Ewina Pun</h4>
-                        <p class="person-role">Computational Neuroscientist</p>
-                        <p class="person-description">Computational neuroscientist at a stealth startup. Completed a Ph.D. at Brown University in 2024 on the BrainGate team under Dr. Leigh Hochberg, focused on stable and reliable long-term clinical BCI for people with tetraplegia. Previously completed EE and BME degrees at USC with research in BioMEMS implantables and adaptive subspace identification for dynamic tracking in BCI.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/IMG_4857~2 - Terence Rabuzzi.JPG" alt="Headshot of Terence Rabuzzi" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Terence Rabuzzi</h4>
-                        <p class="person-role">Senior Technical Writer, Science</p>
-                        <p class="person-description">Former engineer and current technical writer. Helps teams quickly find relevant information in support documentation and communicate technical concepts clearly.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/Image from iOS - Vishnu T S.jpg" alt="Headshot of Vishnu Therayil Sasikumar" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Vishnu Therayil Sasikumar</h4>
-                        <p class="person-role">Member of Technical Staff</p>
-                        <p class="person-description">Focuses on computer architecture and high-reliability embedded systems, and currently leads FPGA and firmware work at Science Corp.</p>
+                        <h4>Phil Xie</h4>
+                        <p class="person-role">Electrical Engineer, Science Corporation</p>
+                        <p class="person-description">Hardware for cutting-edge neural interfaces. Founded Neurotech@Berkeley with 120+ undergrads building BCI devices.</p>
                     </div>
                 </div>
                 <div class="person-card">
@@ -557,178 +667,96 @@
                     </div>
                     <div class="person-info">
                         <h4>Calvin Leng</h4>
-                        <p class="person-role">Software Engineer, Science Corporation</p>
-                        <p class="person-description">Software engineer building device and supporting software at Science Corp. Previously studied pure math and CS at UC Davis and pursued a theoretical computer science PhD at USC focused on algorithms.</p>
+                        <p class="person-role">Software Engineer, Science</p>
+                        <p class="person-description">PhD in theoretical computer science. Mathematical rigor applied to reliable BCI systems and device software.</p>
                     </div>
                 </div>
+
+                <!-- Merge Labs Mentors -->
                 <div class="person-card">
                     <div class="person-image">
-                        <img class="headshot-phil" src="headshots/Phil Xie - Phil Xie.jpg" alt="Headshot of Phil Xie" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Phil Xie</h4>
-                        <p class="person-role">Electrical Engineer, Science Corporation</p>
-                        <p class="person-description">Electrical engineer and neurotechnology researcher. Built wearables for stroke patients at UC Berkeley, researched deep-learning MRI tumor segmentation at UCSF, and helped develop novel TMS methods at UC Berkeley. Previously led Neurotech@Berkeley, supporting 100+ undergraduates building BCI projects.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Refael Shamir" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Refael Shamir</h4>
-                        <p class="person-role">Founder, Letos</p>
-                        <p class="person-description">Startup founder and independent researcher with 8+ years in affective neuroscience. Hardware engineer by profession and a proficient project and product manager.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/portrait (2) - Ninon Lizé Masclef.png" alt="Headshot of Ninon Lize Masclef" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Ninon Lize Masclef</h4>
-                        <p class="person-role">Research Affiliate, MIT Media Lab</p>
-                        <p class="person-description">Brain and AI researcher at MIT Media Lab, co-leading research on neural decoding of visual perception and imagery from brainwaves (NeurIPS 2025). Currently building a startup to decode dreams from brainwaves. IEEE Brain hackathon winner with a background in AI and CS engineering, fine art, and philosophy.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="headshots/IMG_4348 - Brian Zhou.jpeg" alt="Headshot of Xingyu Brian Zhou" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Xingyu (Brian) Zhou</h4>
-                        <p class="person-role">PhD Student, Stanford University</p>
-                        <p class="person-description">PhD student in the Chichilnisky Lab at Stanford, working on the Stanford Artificial Retina Project. Focused on single-neuron resolution bidirectional neural interfaces, including robust spike sorting pipelines for highly compressed neural data and low-power neural interface hardware. Previously served as President of the Johns Hopkins Undergraduate Brain-Computer Interface Society (2022-2024).</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Max Hasslberger" loading="lazy">
+                        <img src="headshots/max_hasslberger.jpeg" alt="Headshot of Max Hasslberger" loading="lazy">
                     </div>
                     <div class="person-info">
                         <h4>Max Hasslberger</h4>
-                        <p class="person-role">Ultrasound Engineer at Merge Labs</p>
-                        <p class="person-description">Ultrasound physics, electrical engineering with a focus on neuroengineering, and computational modeling.</p>
+                        <p class="person-role">Ultrasound Engineer, Merge Labs</p>
+                        <p class="person-description">Ultrasound physics, electrical engineering, and computational modeling for non-invasive brain-computer interfaces.</p>
                     </div>
                 </div>
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Jake Wilkins" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Jake Wilkins</h4>
-                        <p class="person-role">Founding Designer, Orbit</p>
-                        <p class="person-description">UX and UI, product design, and software and hardware experience. Prior to Orbit, spent several years at LivaNova leading design for software and hardware in neuromodulation across clinical and consumer products.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Andrii Zahorodnii" loading="lazy">
+                        <img src="headshots/andrii_zahorodnii.jpeg" alt="Headshot of Andrii Zahorodnii" loading="lazy">
                     </div>
                     <div class="person-info">
                         <h4>Andrii Zahorodnii</h4>
-                        <p class="person-role">ML and Neuro at Merge Labs</p>
-                        <p class="person-description">Machine learning and neurotechnology at Merge Labs.</p>
+                        <p class="person-role">ML & Neuro @ Merge Labs</p>
+                        <p class="person-description">Machine learning and neuroscience. Signal processing, neural decoding, and BCI data pipeline methods.</p>
                     </div>
                 </div>
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Dipanshu Gandhi" loading="lazy">
+                        <img src="headshots/ankita_chatterjee.jpeg" alt="Headshot of Ankita Chatterjee" class="headshot-ankita" loading="lazy">
                     </div>
                     <div class="person-info">
-                        <h4>Dipanshu Gandhi</h4>
-                        <p class="person-role">CTO, Orbit Neuro</p>
-                        <p class="person-description">Electronics for sensing, embedded systems, rapid prototyping, and non-invasive brain imaging systems.</p>
+                        <h4>Ankita Chatterjee</h4>
+                        <p class="person-role">Operations, Merge Labs</p>
+                        <p class="person-description">Strategy and finance for neurotechnology. Go-to-market and financial planning expertise.</p>
                     </div>
                 </div>
+
+                <!-- Orbit Mentors -->
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Pete Richards" loading="lazy">
+                        <img src="headshots/pete_richards.jpeg" alt="Headshot of Pete Richards" loading="lazy">
                     </div>
                     <div class="person-info">
                         <h4>Pete Richards</h4>
                         <p class="person-role">Founding EE, Orbit Neuro</p>
-                        <p class="person-description">Diverse background in sensing hardware and other technologies at the interface between electronics and the physical world. Most recently Senior Staff Research Scientist at Fitbit and Google on health sensing hardware; previously worked on touch sensors at Apple and MEMS and displays at a startup.</p>
+                        <p class="person-description">Sensing hardware and electronics/physical world interface expertise. Sr. Staff Research Scientist at Fitbit/Google, Apple touch sensors.</p>
                     </div>
                 </div>
+
+                <!-- Neuralink Mentors -->
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Luke Gordon" loading="lazy">
+                        <img src="headshots/luke_gordon.jpeg" alt="Headshot of Luke Gordon" loading="lazy">
                     </div>
                     <div class="person-info">
                         <h4>Luke Gordon</h4>
-                        <p class="person-role">Neuroscientist and Study Director, Neuralink</p>
-                        <p class="person-description">Biomedical engineering and PhD-level neuroscience background.</p>
+                        <p class="person-role">Neuroscientist/Study Director Neuralink</p>
+                        <p class="person-description">Oversees research studies at the frontier of human brain-computer interfaces. PhD in Neuroscience, neural recording and decoding expertise.</p>
                     </div>
                 </div>
+
+                <!-- Precision Neuroscience & Other Companies -->
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Lindsey Jardine" loading="lazy">
+                        <img src="headshots/iakov_rachinskiy.jpeg" alt="Headshot of Iakov Rachinskiy" class="headshot-iakov" loading="lazy">
                     </div>
                     <div class="person-info">
-                        <h4>Lindsey Jardine</h4>
-                        <p class="person-role">VP at Adraxe</p>
-                        <p class="person-description">Clinical, regulatory, and commercialization expertise.</p>
+                        <h4>Iakov Rachinskiy</h4>
+                        <p class="person-role">Engineer, Precision Neuroscience</p>
+                        <p class="person-description">Microfabrication and neural engineering. Micro-scale devices for neural interfaces and electrode arrays.</p>
                     </div>
                 </div>
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Matthew Tarchick" loading="lazy">
+                        <img src="headshots/portrait (2) - Ninon Lizé Masclef.png" alt="Headshot of Ninon Lizé Masclef" loading="lazy">
                     </div>
                     <div class="person-info">
-                        <h4>Matthew Tarchick</h4>
-                        <p class="person-role">Founder at KozAI</p>
-                        <p class="person-description">Neural simulation and prediction.</p>
+                        <h4>Ninon Lizé Masclef</h4>
+                        <p class="person-role">Research Affiliate, MIT Media Lab</p>
+                        <p class="person-description">Neural decoding, multimodal AI, and affective computing. Software systems integrating neural data with other modalities.</p>
                     </div>
                 </div>
                 <div class="person-card">
                     <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Ankita Chatterjee" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Ankita Chatterjee</h4>
-                        <p class="person-role">Operations at Merge Labs</p>
-                        <p class="person-description">Strategy and finance in neurotech.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Dan Adams" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Dan Adams</h4>
-                        <p class="person-role">Neuralink</p>
-                        <p class="person-description">Neuroscience.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Anshul Kashyap" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Anshul Kashyap</h4>
-                        <p class="person-role">Former student researcher at Chang Lab at UCSF and Boyden Lab at MIT</p>
-                        <p class="person-description">Neural signal decoding and BioML.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Christian Larsen" loading="lazy">
+                        <img src="headshots/christian_larsen.jpeg" alt="Headshot of Christian Larsen" class="headshot-christian" loading="lazy">
                     </div>
                     <div class="person-info">
                         <h4>Christian Larsen</h4>
                         <p class="person-role">Co-Founder, Netholabs</p>
-                        <p class="person-description">Machine learning and behavior.</p>
-                    </div>
-                </div>
-                <div class="person-card">
-                    <div class="person-image">
-                        <img src="css/global_neurohack_logo.png" alt="Profile image for Iakov Rachinskiy" loading="lazy">
-                    </div>
-                    <div class="person-info">
-                        <h4>Iakov Rachinskiy</h4>
-                        <p class="person-role">Precision</p>
-                        <p class="person-description">Microfabrication and neural engineering.</p>
+                        <p class="person-description">Machine learning and behavior. ML methods for understanding and modeling behavioral data in neurotechnology.</p>
                     </div>
                 </div>
                 <div class="person-card">
@@ -737,11 +765,31 @@
                     </div>
                     <div class="person-info">
                         <h4>Ivoine Strachan</h4>
-                        <p class="person-role">Dberi</p>
-                        <p class="person-description">Built robots and VR suits in China and has worked in software at tech companies in San Francisco for the last four years.</p>
+                        <p class="person-role">Founder & Builder, Dberi</p>
+                        <p class="person-description">Self-taught builder who has built robots, full-body haptic VR suits, and STM32 dev boards. SF software engineering experience.</p>
                     </div>
                 </div>
-                
+                <div class="person-card">
+                    <div class="person-image">
+                        <img src="headshots/lindsey_jardine.jpeg" alt="Headshot of Lindsey Jardine" class="headshot-lindsey" loading="lazy">
+                    </div>
+                    <div class="person-info">
+                        <h4>Lindsey Jardine</h4>
+                        <p class="person-role">VP at Adraxe</p>
+                        <p class="person-description">Clinical strategy, regulatory affairs, and commercialization. FDA regulatory strategy, clinical trials, and market positioning.</p>
+                    </div>
+                </div>
+                <div class="person-card">
+                    <div class="person-image">
+                        <img src="headshots/matthew_tarchick.jpeg" alt="Headshot of Matthew Tarchick" loading="lazy">
+                    </div>
+                    <div class="person-info">
+                        <h4>Matthew Tarchick</h4>
+                        <p class="person-role">Founder, KozAI</p>
+                        <p class="person-description">Neural simulation and prediction. Computational tools for modeling brain dynamics and forecasting neural system behavior.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
